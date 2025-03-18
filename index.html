@@ -255,3 +255,533 @@
     </footer>
 </body>
 </html>
+
+
+------------------------------------------
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial HTML Lengkap</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .code-example {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-left: 5px solid #4CAF50;
+            margin: 10px 0;
+            font-family: Consolas, monospace;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HTML Introduction -->
+    <header>
+        <h1>Ini adalah judul</h1>
+        <p>Kompilasi Tutorial HTML dari W3Schools</p>
+    </header>
+
+    <section id="intro">
+        <h2>Ini adalah judul</h2>
+        <p>HTML (HyperText Markup Language) adalah bahasa standar untuk membuat halaman web. HTML mendeskripsikan struktur halaman web menggunakan markup. Elemen HTML dilabeli dengan tag yang diapit tanda kurung sudut.</p>
+        <div class="code-example">&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;title&gt;Judul Halaman&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br><br>
+&lt;h1&gt;Ini adalah judul&lt;/h1&gt;<br>
+&lt;p&gt;Ini adalah paragraf.&lt;/p&gt;<br><br>
+&lt;/body&gt;<br>
+&lt;/html&gt;</div>
+    </section>
+
+    <!-- HTML Basic Examples -->
+    <section id="basics">
+        <h2>Ini adalah judul</h2>
+        <p>Dokumen HTML terdiri dari elemen HTML yang mengatur cara konten ditampilkan. Berikut contoh elemen dasar dalam HTML.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag heading (&lt;h1&gt; hingga &lt;h6&gt;) digunakan untuk menentukan judul dan subjudul.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag paragraf (&lt;p&gt;) digunakan untuk mengelompokkan konten teks.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag link (&lt;a&gt;) digunakan untuk membuat hyperlink ke halaman lain atau sumber daya.</p>
+        <a href="https://www.w3schools.com">Ini adalah link</a>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag gambar (&lt;img&gt;) digunakan untuk menampilkan gambar di halaman web.</p>
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNlMGUwZTAiLz4KPHRleHQgeD0iNTAiIHk9IjUwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM2NjY2NjYiPkdhbWJhcjwvdGV4dD4KPC9zdmc+" alt="Contoh Gambar">
+    </section>
+
+    <!-- HTML Elements -->
+    <section id="elements">
+        <h2>Ini adalah judul</h2>
+        <p>Elemen HTML didefinisikan oleh tag pembuka, konten, dan tag penutup. Beberapa elemen tidak memiliki konten dan disebut elemen kosong.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>HTML mendukung berbagai jenis elemen seperti heading, paragraf, tautan, gambar, daftar, tabel, dan banyak lagi.</p>
+        
+        <h4>Ini adalah judul</h4>
+        <ol>
+            <li>Ini adalah item daftar terurut pertama</li>
+            <li>Ini adalah item daftar terurut kedua</li>
+            <li>Ini adalah item daftar terurut ketiga</li>
+        </ol>
+        
+        <h4>Ini adalah judul</h4>
+        <ul>
+            <li>Ini adalah item daftar tidak terurut</li>
+            <li>Ini adalah item daftar tidak terurut lainnya</li>
+            <li>Ini adalah item daftar tidak terurut lainnya</li>
+        </ul>
+    </section>
+
+    <!-- HTML Attributes -->
+    <section id="attributes">
+        <h2>Ini adalah judul</h2>
+        <p>Atribut HTML memberikan informasi tambahan tentang elemen HTML. Atribut selalu ditentukan di tag awal dan biasanya datang dalam pasangan nama/nilai.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Contoh atribut umum termasuk:</p>
+        <ul>
+            <li><code>href</code> - untuk menentukan URL tautan</li>
+            <li><code>src</code> - untuk menentukan sumber gambar</li>
+            <li><code>alt</code> - untuk memberikan teks alternatif untuk gambar</li>
+            <li><code>style</code> - untuk menambahkan gaya inline ke elemen</li>
+            <li><code>class</code> - untuk merujuk ke kelas dalam stylesheet</li>
+            <li><code>id</code> - untuk menentukan id unik untuk elemen</li>
+        </ul>
+        
+        <p style="color:blue; font-size:18px;">Ini adalah paragraf dengan atribut style</p>
+        <p title="Ini adalah tooltip">Arahkan kursor ke paragraf ini untuk melihat tooltip</p>
+    </section>
+
+    <!-- HTML Headings -->
+    <section id="headings">
+        <h2>Ini adalah judul</h2>
+        <p>HTML mendukung enam level heading, dari &lt;h1&gt; hingga &lt;h6&gt;, dengan &lt;h1&gt; sebagai yang paling penting.</p>
+        
+        <h1>Ini adalah judul h1</h1>
+        <h2>Ini adalah judul h2</h2>
+        <h3>Ini adalah judul h3</h3>
+        <h4>Ini adalah judul h4</h4>
+        <h5>Ini adalah judul h5</h5>
+        <h6>Ini adalah judul h6</h6>
+    </section>
+
+    <!-- HTML Paragraphs -->
+    <section id="paragraphs">
+        <h2>Ini adalah judul</h2>
+        <p>Paragraf HTML didefinisikan dengan tag &lt;p&gt;. HTML mengabaikan spasi dan baris baru tambahan dalam kode sumber.</p>
+        
+        <p>Ini adalah paragraf pertama.</p>
+        <p>Ini adalah paragraf kedua.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag &lt;br&gt; digunakan untuk membuat jeda baris:</p>
+        <p>Ini adalah<br>paragraf<br>dengan jeda baris.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag &lt;hr&gt; digunakan untuk membuat garis horizontal:</p>
+        <hr>
+        <p>Paragraf setelah garis horizontal.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag &lt;pre&gt; digunakan untuk teks yang telah diformat:</p>
+        <pre>
+Ini adalah
+teks yang
+diformat   dengan
+  spasi dan
+    jeda baris.
+        </pre>
+    </section>
+
+    <!-- HTML Styles -->
+    <section id="styles">
+        <h2>Ini adalah judul</h2>
+        <p>Atribut style digunakan untuk menambahkan gaya ke elemen, seperti warna, font, ukuran, dll.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p style="color:red;">Ini adalah paragraf merah.</p>
+        <p style="font-family:courier;">Ini adalah paragraf dengan font Courier.</p>
+        <p style="font-size:160%;">Ini adalah paragraf dengan ukuran font lebih besar.</p>
+        <p style="text-align:center;">Ini adalah paragraf yang diratakan tengah.</p>
+        <p style="background-color:powderblue;">Ini adalah paragraf dengan latar belakang warna biru bubuk.</p>
+    </section>
+
+    <!-- HTML Formatting -->
+    <section id="formatting">
+        <h2>Ini adalah judul</h2>
+        <p>HTML menyediakan beberapa elemen untuk menentukan teks dengan makna khusus.</p>
+        
+        <p><b>Ini adalah teks tebal</b></p>
+        <p><strong>Ini adalah teks strong (penting)</strong></p>
+        <p><i>Ini adalah teks miring</i></p>
+        <p><em>Ini adalah teks emphasized</em></p>
+        <p><mark>Ini adalah teks yang ditandai</mark></p>
+        <p><small>Ini adalah teks kecil</small></p>
+        <p><del>Ini adalah teks yang dihapus</del></p>
+        <p><ins>Ini adalah teks yang disisipkan</ins></p>
+        <p>Ini adalah <sub>subscript</sub> dan <sup>superscript</sup></p>
+    </section>
+
+    <!-- HTML Quotations -->
+    <section id="quotations">
+        <h2>Ini adalah judul</h2>
+        <p>HTML menyediakan beberapa elemen untuk kutipan.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag &lt;blockquote&gt; untuk kutipan panjang:</p>
+        <blockquote cite="http://www.worldwildlife.org">
+            Ini adalah kutipan panjang yang menggunakan elemen blockquote. HTML adalah bahasa markup yang digunakan untuk membuat struktur halaman web.
+        </blockquote>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag &lt;q&gt; untuk kutipan pendek:</p>
+        <p>WWF mengatakan: <q>HTML adalah bahasa markup standar untuk halaman web</q></p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag &lt;abbr&gt; untuk singkatan:</p>
+        <p>HTML adalah singkatan dari <abbr title="HyperText Markup Language">HTML</abbr></p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag &lt;address&gt; untuk informasi kontak:</p>
+        <address>
+        Ditulis oleh: John Doe<br>
+        Kunjungi kami di: example.com<br>
+        Email: mail@example.com
+        </address>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tag &lt;cite&gt; untuk judul karya:</p>
+        <p><cite>HTML Tutorial</cite> oleh W3Schools.</p>
+    </section>
+
+    <!-- HTML Comments -->
+    <section id="comments">
+        <h2>Ini adalah judul</h2>
+        <p>Komentar HTML tidak ditampilkan di browser, tetapi dapat membantu mendokumentasikan kode HTML.</p>
+        <!-- Ini adalah komentar HTML yang tidak akan ditampilkan di browser -->
+        <p>Komentar ditulis dengan &lt;!-- dan diakhiri dengan --&gt;</p>
+    </section>
+
+    <!-- HTML Colors -->
+    <section id="colors">
+        <h2>Ini adalah judul</h2>
+        <p>Warna HTML dapat ditentukan menggunakan nama warna, nilai RGB, nilai HEX, nilai HSL, nilai RGBA, atau nilai HSLA.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p style="background-color:tomato;">Ini warna latar belakang tomato</p>
+        <p style="background-color:rgb(255, 99, 71);">Ini warna RGB</p>
+        <p style="background-color:#ff6347;">Ini warna HEX</p>
+        <p style="background-color:hsl(9, 100%, 64%);">Ini warna HSL</p>
+        <p style="background-color:rgba(255, 99, 71, 0.5);">Ini warna RGBA dengan transparansi</p>
+    </section>
+
+    <!-- HTML Links -->
+    <section id="links">
+        <h2>Ini adalah judul</h2>
+        <p>Tautan HTML didefinisikan dengan tag &lt;a&gt;. Atribut paling penting adalah href, yang menentukan tujuan tautan.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tautan absolut (ke situs web lain):</p>
+        <a href="https://www.w3schools.com">Kunjungi W3Schools</a>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tautan ke bagian halaman yang sama:</p>
+        <a href="#intro">Kembali ke Intro</a>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tautan dengan atribut target untuk menentukan di mana membuka dokumen tertaut:</p>
+        <a href="https://www.w3schools.com" target="_blank">Buka W3Schools di tab baru</a>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tautan gambar:</p>
+        <a href="https://www.w3schools.com">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiBmaWxsPSIjNDRhYTAwIi8+Cjx0ZXh0IHg9IjUwIiB5PSIyNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ3aGl0ZSI+VzNTY2hvb2xzPC90ZXh0Pgo8L3N2Zz4=" alt="W3Schools" style="width:100px;height:50px;">
+        </a>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tautan email:</p>
+        <a href="mailto:someone@example.com">Kirim Email</a>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tombol sebagai tautan:</p>
+        <button onclick="document.location='#top'">Kembali ke atas</button>
+    </section>
+
+    <!-- HTML Images -->
+    <section id="images">
+        <h2>Ini adalah judul</h2>
+        <p>Gambar HTML didefinisikan dengan tag &lt;img&gt;. Atribut sumber (src), teks alternatif (alt), width, dan height.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Gambar dengan ukuran tertentu:</p>
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiM0Q0FGNTAiLz4KPHRleHQgeD0iMTUwIiB5PSIxMDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiPkNvbnRvaCBHYW1iYXI8L3RleHQ+Cjwvc3ZnPg==" alt="Contoh Gambar" width="300" height="200">
+        
+        <h3>Ini adalah judul</h3>
+        <p>Gambar dengan tautan:</p>
+        <a href="#top">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgZmlsbD0iIzAwNzhENyIvPgo8dGV4dCB4PSIyNSIgeT0iMjUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiPlRvcDwvdGV4dD4KPC9zdmc+" alt="Kembali ke atas">
+        </a>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Gambar float:</p>
+        <p><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgZmlsbD0iI2ZmYTUwMCIvPgo8dGV4dCB4PSI0MCIgeT0iNDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiPkljb248L3RleHQ+Cjwvc3ZnPg==" alt="Icon" style="float:right;width:80px;height:80px;margin-left:15px;">
+        Ini adalah contoh teks dengan gambar yang mengapung di sebelah kanan. Teks akan mengalir di sekitar gambar. Gambar memiliki margin kiri untuk memberikan ruang antara gambar dan teks.</p>
+    </section>
+
+    <!-- HTML Tables -->
+    <section id="tables">
+        <h2>Ini adalah judul</h2>
+        <p>Tabel HTML didefinisikan dengan tag &lt;table&gt;. Baris tabel didefinisikan dengan tag &lt;tr&gt;, header dengan &lt;th&gt;, dan sel data dengan &lt;td&gt;.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tabel dasar:</p>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Kota</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+                <td>London</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>35</td>
+                <td>Paris</td>
+            </tr>
+        </table>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Tabel dengan border dan padding:</p>
+        <table style="border-collapse: collapse; width: 100%;">
+            <tr>
+                <th style="border: 1px solid black; padding: 15px;">Produk</th>
+                <th style="border: 1px solid black; padding: 15px;">Harga</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 15px;">Laptop</td>
+                <td style="border: 1px solid black; padding: 15px;">Rp 10.000.000</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 15px;">Smartphone</td>
+                <td style="border: 1px solid black; padding: 15px;">Rp 5.000.000</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- HTML Lists -->
+    <section id="lists">
+        <h2>Ini adalah judul</h2>
+        <p>HTML mendukung daftar terurut (ordered), tidak terurut (unordered), dan daftar deskripsi (description).</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Daftar terurut:</p>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Daftar tidak terurut:</p>
+        <ul>
+            <li>Apel</li>
+            <li>Pisang</li>
+            <li>Jeruk</li>
+        </ul>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Daftar deskripsi:</p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>- Bahasa untuk membuat struktur halaman web</dd>
+            <dt>CSS</dt>
+            <dd>- Bahasa untuk mendesain tampilan halaman web</dd>
+            <dt>JavaScript</dt>
+            <dd>- Bahasa pemrograman untuk membuat interaksi halaman web</dd>
+        </dl>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Daftar bersarang:</p>
+        <ul>
+            <li>Buah
+                <ul>
+                    <li>Apel</li>
+                    <li>Pisang</li>
+                </ul>
+            </li>
+            <li>Sayur
+                <ul>
+                    <li>Wortel</li>
+                    <li>Bayam</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- HTML Block and Inline -->
+    <section id="block-inline">
+        <h2>Ini adalah judul</h2>
+        <p>Elemen HTML dapat dikategorikan sebagai elemen block atau inline.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Elemen block selalu dimulai pada baris baru dan mengambil lebar penuh yang tersedia:</p>
+        <div style="background-color: lightgray; padding: 10px; margin: 10px 0;">Ini adalah elemen div (block)</div>
+        <p>Ini adalah paragraf (block)</p>
+        <h3>Ini adalah heading (block)</h3>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Elemen inline tidak dimulai pada baris baru dan hanya mengambil ruang yang diperlukan:</p>
+        <p>Ini adalah <span style="color: red;">elemen span (inline)</span> dalam paragraf.</p>
+        <p>Ini adalah <a href="#">link (inline)</a> dalam paragraf.</p>
+        <p>Ini adalah <strong>elemen strong (inline)</strong> dalam paragraf.</p>
+    </section>
+
+    <!-- HTML Classes -->
+    <section id="classes">
+        <h2>Ini adalah judul</h2>
+        <p>Atribut class HTML digunakan untuk menentukan kelas untuk elemen HTML, yang dapat digunakan dalam CSS dan JavaScript.</p>
+        
+        <style>
+            .city {
+                background-color: tomato;
+                color: white;
+                padding: 10px;
+                margin: 5px;
+            }
+            .main {
+                font-weight: bold;
+            }
+            .note {
+                font-style: italic;
+                font-size: 0.9em;
+                color: gray;
+            }
+        </style>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Elemen dengan class "city":</p>
+        <div class="city">Jakarta</div>
+        <div class="city">Surabaya</div>
+        <div class="city">Bandung</div>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Elemen dengan multiple classes:</p>
+        <p class="main note">Ini adalah paragraf dengan dua kelas: "main" dan "note".</p>
+    </section>
+
+    <!-- HTML Id -->
+    <section id="identifiers">
+        <h2>Ini adalah judul</h2>
+        <p>Atribut id HTML digunakan untuk menentukan id unik untuk elemen HTML, yang dapat digunakan dalam CSS dan JavaScript.</p>
+        
+        <style>
+            #unique-heading {
+                background-color: #6495ED;
+                color: white;
+                padding: 10px;
+            }
+            #special-paragraph {
+                border-left: 5px solid #4CAF50;
+                padding-left: 10px;
+            }
+        </style>
+        
+        <h3 id="unique-heading">Ini adalah judul dengan ID "unique-heading"</h3>
+        <p id="special-paragraph">Ini adalah paragraf dengan ID "special-paragraph".</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Link ke elemen dengan ID tertentu:</p>
+        <a href="#intro">Pergi ke Intro</a>
+    </section>
+
+    <!-- HTML Iframes -->
+    <section id="iframes">
+        <h2>Ini adalah judul</h2>
+        <p>Iframe HTML digunakan untuk menampilkan halaman web dalam halaman web. Tag &lt;iframe&gt; menentukan iframe sebaris.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Contoh iframe (menampilkan diri sendiri):</p>
+        <iframe src="#" title="Demo Iframe" width="100%" height="200" style="border:1px solid black;"></iframe>
+    </section>
+
+    <!-- HTML JavaScript -->
+    <section id="javascript">
+        <h2>Ini adalah judul</h2>
+        <p>JavaScript dapat mengubah konten HTML, atribut HTML, gaya HTML, dan dapat menyembunyikan dan menampilkan elemen HTML.</p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Contoh tombol yang menggunakan JavaScript:</p>
+        <button onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Klik Saya</button>
+        <p id="demo"></p>
+        
+        <h3>Ini adalah judul</h3>
+        <p>Contoh JavaScript untuk mengubah gaya:</p>
+        <button onclick="document.getElementById('demo2').style.fontSize='35px'">Klik untuk memperbesar teks</button>
+        <p id="demo2">Ini adalah teks yang akan berubah ukurannya.</p>
